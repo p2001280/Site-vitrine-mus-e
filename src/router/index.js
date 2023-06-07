@@ -30,6 +30,11 @@ const routes = [
     name: 'currently',
     component: () => import('../views/CurrentlyView.vue') 
   },
+  {
+    path: '/expos',
+    name: 'expos',
+    component: () => import('../views/Expos.vue')
+  }
 ];
 
 const router = createRouter({

@@ -1,3 +1,11 @@
+<script setup>
+import icone_facebook from '@/assets/icone_facebook.png'; // Remplacez "mon-image.png" par le nom réel de votre image
+import icone_instagram from '@/assets/icone_instagram.png'; // Remplacez "mon-image.png" par le nom réel de votre image
+import icone_linkedin from '@/assets/icone_linkedin.png'; // Remplacez "mon-image.png" par le nom réel de votre image
+import icone_twitter from '@/assets/icone_twitter.png'; // Remplacez "mon-image.png" par le nom réel de votre image
+</script>
+
+
 <template>
     <div>
         <div class="flex items-center w-full h-40 bg-personnalized-purple justify-between">
@@ -16,7 +24,7 @@
             <div class = "text-2xl font-bold text-white px-4">
                 <p class = "text-2xl font-bold text-white ml-16 mb-4">Contact</p>
                 <div class = "flex items-center">
-                    <p class = "text-2xl">msl-lyon@gmail.com</p>
+                    <p class = "text-2xl underline">msl-lyon@gmail.com</p>
                 </div>
             </div>
             <div class = "text-2xl font-bold text-white px-4 mr-6">
@@ -29,10 +37,3 @@
     </div>
 </template>
   
-
-<script setup>
-import icone_facebook from '@/assets/icone_facebook.png'; // Remplacez "mon-image.png" par le nom réel de votre image
-import icone_instagram from '@/assets/icone_instagram.png'; // Remplacez "mon-image.png" par le nom réel de votre image
-import icone_linkedin from '@/assets/icone_linkedin.png'; // Remplacez "mon-image.png" par le nom réel de votre image
-import icone_twitter from '@/assets/icone_twitter.png'; // Remplacez "mon-image.png" par le nom réel de votre image
-</script>
