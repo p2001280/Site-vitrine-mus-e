@@ -1,5 +1,6 @@
 <script setup>
 import Header from '../components/Header.vue'
+import HeaderMobile from '../components/HeaderMobile.vue'
 import Footer from '../components/Footer.vue'
 import image1 from '@/assets/img_card_1.png'; // Remplacez "mon-image.png" par le nom réel de votre image
 import image2 from '@/assets/img_card_2.png'; // Remplacez "mon-image.png" par le nom réel de votre image
@@ -111,5 +112,6 @@ import space from '@/assets/space.png'; // Remplacez "mon-image.png" par le nom 
   </div>
   <div>
   </div>
+  <HeaderMobile />
   <Footer />
 </template>
