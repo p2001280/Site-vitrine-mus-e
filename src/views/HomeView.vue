@@ -25,10 +25,10 @@ import space from '@/assets/space.png'; // Remplacez "mon-image.png" par le nom 
   </div>
   <div class="bg-black h-fit">
     <div>
-      <p class="text-3xl text-white ml-10 font-bold text-center py-10 mr-10">NOS EXPOS</p>
+      <p class="text-3xl text-white ml-10 font-bold text-center py-10">NOS EXPOS</p>
     </div>
-    <div class="grid grid-cols-3 lg:grid-cols-3 gap-60 mx-16   max-w-7xl">
-        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96" ref="tiltContainer1">
+    <div class="grid grid-cols-3 lg:grid-cols-3 gap-x-96 mx-16 max-w-7xl">
+        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96">
           <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center">Planètes en mouvement</h1>
           <p class="font-bold px-10 mt-4 text-left ml-2">
             Plongez dans l'univers fascinant
@@ -47,7 +47,7 @@ import space from '@/assets/space.png'; // Remplacez "mon-image.png" par le nom 
           </p>
           <img :src="image1" class="mt-10 pb-10 ml-12" alt="" />        
         </div>
-        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96" ref="tiltContainer1">
+        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96 ml-40">
           <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center">Explorer l'inconnu</h1>
           <p class="font-bold px-10 mt-4 text-left ml-2">
             Envie de découvrir les merveilles de
@@ -66,7 +66,7 @@ import space from '@/assets/space.png'; // Remplacez "mon-image.png" par le nom 
           </p>
           <img :src="image2" class="mt-10 pb-10 ml-12" alt="" />        
         </div>
-        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96" ref="tiltContainer1">
+        <div class="col-span-1 cursor-pointer bg-[#D9D9D9] tilt-container w-96 ml-72">
           <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center">Des mondes extraordinaires</h1>
           <p class="font-bold px-10 mt-4 text-left ml-2">
             Envie de découvrir les merveilles de
@@ -103,7 +103,7 @@ import space from '@/assets/space.png'; // Remplacez "mon-image.png" par le nom 
     </div>
     <div class = "ml-32 pb-20">
       <h1 class = "text-white font-bold text-4xl pb-8">Où nous trouver ?</h1>
-      <iframe class = " w-3/6"
+      <iframe class = " w-5/6"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0689500437666!2d4.796588976758267!3d45.76980841299544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb772a2b3a93%3A0xb7494ec124efbd8f!2s24%20Ave.%20Joann%C3%A8s%20Masset%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1686052924376!5m2!1sfr!2sfr"
       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>

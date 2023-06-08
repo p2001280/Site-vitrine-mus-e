@@ -2,7 +2,7 @@
     <div>
       <div class="flex items-center w-full h-30 bg-personnalized-purple justify-between px-10" >
         <div class="flex items-center justify-start py-4">
-          <img alt="Vue logo" class="px-4 w-28 h-20" src="@/assets/logo_white.png" />
+          <img alt="Logo MSL" class="px-4 w-28 h-20" src="@/assets/logo_white.png" />
           <span class="text-3xl font-bold text-white px-4">MSL</span>
         </div>
         <div class="flex items-center justify-end mr-4">
