@@ -1,6 +1,11 @@
 <template>
     <div>
-      <div class="flex items-center w-full h-30 bg-personnalized-purple justify-between">
+      <div class="flex items-center w-full h-30 bg-personnalized-purple justify-center md:hidden">
+        <div class="flex items-center justify-center py-4">
+          <p class="text-3xl font-bold text-white px-4 ">MSL</p>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center w-full h-30 bg-personnalized-purple justify-between">
         <div class="flex items-center justify-start py-4">
           <img alt="Vue logo" class="px-4 w-28 h-20" src="@/assets/logo_white.png" />
           <span class="text-3xl font-bold text-white px-4">MSL</span>
