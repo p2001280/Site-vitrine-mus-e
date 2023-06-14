@@ -21,7 +21,7 @@
   </div>
   <Footer />
   <!-- Modal -->
-  <div v-if="showModal !== 0" class="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-75" @click.self="closeModal">
+<div v-if="showModal !== 0" class="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-75 animate__animated animate__fadeIn" @click.self="closeModal">
     <div class="bg-[#372F7A] p-6 rounded-lg w-1/2" @keydown.escape="closeModal">
       <p class="text-xl text-white">
         {{ modals[showModal - 1].content }}
@@ -41,6 +41,7 @@ import img_espace_2 from '@/assets/img_espace_2.png';
 import img_espace_3 from '@/assets/img_espace_3.png';
 
 import { ref, onMounted } from 'vue';
+import 'animate.css';
 import VanillaTilt from 'vanilla-tilt';
 
 const showModal = ref(0);
