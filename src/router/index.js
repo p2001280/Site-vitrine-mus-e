@@ -34,6 +34,11 @@ const routes = [
     path: '/expos',
     name: 'expos',
     component: () => import('../views/Expos.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: () => import('../views/FindUs.vue')
   }
 ];
 

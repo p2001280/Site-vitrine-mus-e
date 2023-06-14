@@ -10,7 +10,7 @@ import icone_twitter from '@/assets/icone_twitter.png'; // Remplacez "mon-image.
     <div>
         <div class="flex items-center w-full h-40 bg-personnalized-purple justify-between">
             <div class="mr-4 cols-4 justify-between">
-                <div class="ml-20">
+                <div class="pl-20">
                     <button class="md:text-2xl font-bold text-white px-4 py-2 ml-8 mb-4">Nous
                         suivre</button>
                     <div class="flex items-center">
@@ -21,7 +21,7 @@ import icone_twitter from '@/assets/icone_twitter.png'; // Remplacez "mon-image.
                     </div>
                 </div>
             </div>
-            <div class = "md:text-2xl font-bold text-white px-4">
+            <div class = "md:text-2xl font-bold text-white pl-14">
                 <p class = "md:text-2xl font-bold text-white ml-16 mb-4">Contact</p>
                 <div class = "flex items-center">
                     <p class = "text-2xl underline">msl-lyon@gmail.com</p>
