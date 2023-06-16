@@ -85,6 +85,6 @@ import image3 from '@/assets/img_card_3.png'; // Remplacez "mon-image.png" par l
       </div>
     </div>
   </div>
-  <HeaderMobile />
   <Footer />
+  <HeaderMobile />
 </template>
