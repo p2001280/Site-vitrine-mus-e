@@ -1,7 +1,7 @@
 <template>
   <Header />
   <div class="bg-[#171717] h-fit pb-20 text-center">
-    <p class="text-2xl text-white ml-10 font-bold py-20 mr-8">DÉCOUVRIR</p>
+    <p class="text-2xl text-white ml-10 font-bold py-14 mr-8">DÉCOUVRIR</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-14 mx-auto max-w-5xl">
       <div class="col-span-1 cursor-pointer tilt-container" ref="tiltContainer1" @click="openModal(1)">
         <img :src="img_espace_1" alt="">
@@ -12,7 +12,6 @@
       <div class="col-span-1 cursor-pointer tilt-container" ref="tiltContainer3" @click="openModal(3)">
         <img :src="img_espace_3" alt="">
       </div>
-      <!-- Ajoutez les autres éléments tilt-container avec des images -->
     </div>
     <h1 class="text-3xl text-white mt-10 font-bold">Rendez-vous au musée pour la suite !</h1>
     <button class="mt-10 bg-[#7160FA] text-white text-2xl font-bold py-4 px-4 rounded-full">

@@ -1,16 +1,19 @@
 <script setup>
 import Header from '../components/Header.vue'
 import HeaderMobile from '../components/HeaderMobile.vue'
+import UnityGame from '../components/UnityGame.vue'
 import Footer from '../components/Footer.vue'
 import image1 from '@/assets/img_card_1.png'; // Remplacez "mon-image.png" par le nom réel de votre image
 import image2 from '@/assets/img_card_2.png'; // Remplacez "mon-image.png" par le nom réel de votre image
 import image3 from '@/assets/img_card_3.png'; // Remplacez "mon-image.png" par le nom réel de votre image
+import image4 from '@/assets/sol_mars.jpg'; // Remplacez "mon-image.png" par le nom réel de votre image
 import image_vr from '@/assets/img_vr.png'; // Remplacez "mon-image.png" par le nom réel de votre image
 import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par le nom réel de votre image
 </script>
 
 <template>
   <Header />
+  <UnityGame/>
   <div class="bg-[#353535] h-96 w-full">
     <p class="text-white text-6xl font-bold tracking-normal underline pt-16 ml-16 pb-4">M S L</p>
     <p class="font-bold text-xl text-white ml-16 mb-10">MUSÉE SPATIAL LYONNAIS</p>
@@ -31,10 +34,10 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
     <div>
       <p class="text-3xl text-white ml-10 font-bold py-10 ml-16">NOS EXPOS</p>
     </div>
-    <div class="grid grid-cols-4 lg:grid-cols-4 gap-x-96 max-w-7xl ml-6">
+    <div class="grid grid-cols-4 lg:grid-cols-4 md:grid-cols-3 gap-x-96 ml-6">
       <div class="col-span-1 cursor-pointer bg-black tilt-container w-96">
         <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center mr-20">Planètes en mouvement</h1>
-        <p class="font-bold px-10 mt-4 text-left text-justify tracking-tighter ">
+        <p class="font-bold px-10 mt-4 text-left text-xl text-justify tracking-tighter w-full">
           Plongez dans l'univers fascinant
           des planètes avec notre exposition
           interactive “Planètes en mouvement” !
@@ -53,7 +56,7 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
       </div>
       <div class="col-span-1 cursor-pointer bg-black tilt-container w-96">
         <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center mr-28">Explorer l'inconnu</h1>
-        <p class="font-bold px-10 mt-4 text-left ml-2 text-justify tracking-tighter">
+        <p class="font-bold px-10 mt-4 text-left ml-2 text-xl text-justify tracking-tighter w-full">
           Envie de découvrir les merveilles de
           l'espace ? Notre expo immersive
           “Explorer l'inconnu” est faite pour vous !
@@ -72,7 +75,7 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
       </div>
       <div class="col-span-1 cursor-pointer bg-black tilt-container w-96 ">
         <h1 class="text-[#6655E0] text-xl font-bold pt-10 text-center mr-6">Des mondes extraordinaires</h1>
-        <p class="font-bold px-10 mt-4 text-left ml-2 text-justify tracking-tighter">
+        <p class="font-bold px-10 mt-4 text-left text-xl ml-2 text-justify tracking-tighter w-full">
           Envie de découvrir les merveilles de
           l'espace ? Cette expo immersive est faite
           pour vous ! Venez explorer les différentes
@@ -87,7 +90,6 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
         </p>
         <img :src="image3" class="mt-10 pb-10 ml-20 rounded-full" alt="" />
       </div>
-
     </div>
     <div class="flex items-center justify-content">
       <img :src="image_vr" class=" pb-20 ml-12 mt-20 flex items-center justify-start" alt="" />
