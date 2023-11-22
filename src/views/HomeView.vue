@@ -13,7 +13,6 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
 
 <template>
   <Header />
-  <UnityGame/>
   <div class="bg-[#353535] h-96 w-full">
     <p class="text-white text-6xl font-bold tracking-normal underline pt-16 ml-16 pb-4">M S L</p>
     <p class="font-bold text-xl text-white ml-16 mb-10">MUSÉE SPATIAL LYONNAIS</p>
@@ -95,14 +94,17 @@ import space from '@/assets/reverse_space.png'; // Remplacez "mon-image.png" par
       <img :src="image_vr" class=" pb-20 ml-12 mt-20 flex items-center justify-start" alt="" />
       <div class="flex justify-end items-center">
         <div class="text-white font-bold text-2xl block items-center ml-56 justify-end">
-          <p class="font-bold">
+          <p class="font-bold pb-10">
             Découvrez une expérience
             immersive et plongez vous
             dans le musée comme si vous y étiez - le tout à l’aide de votre smartphone
           </p>
-          <button class=" mt-10 bg-[#7160FA] text-white text-normal font-bold py-2 px-4 rounded-full">
+          <router-link to="/videogame" class="mt-10 bg-[#7160FA] text-white text-normal font-bold py-2 px-4 rounded-full mt-24 ">
+          EXPERIENCE AR
+        </router-link>
+          <!-- <button class=" mt-10 bg-[#7160FA] text-white text-normal font-bold py-2 px-4 rounded-full">
             EXPERIENCE AR
-          </button>
+          </button> -->
         </div>
       </div>
       <img :src="space" class=" flex items-center justify-end" alt="" />
